@@ -1,6 +1,6 @@
 # AWS Spot EC2 Calculator
 
-Before starting AWS Credentials needs to be filled in first in a `.env` file on the root. 
+Before starting, AWS Credentials needs to be given. This can be done in a `.env` file on the root. An `example.env` is given. 
 To see how much a Spot EC2 Server cost simply send a POST request to the applicaiton with the following inputs: 
 - region (`eu-west-1`)
 - availabilityZone (`eu-west-1c`)
